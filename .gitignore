@@ -4,3 +4,8 @@
 
 /.vs
 /src/.vs/hm-microservice/v17
+/hm-microservice/.vs/hm-microservice
+/hm-microservice/Services/Catalog/hm.CatalogApi/bin/Debug/net8.0
+/hm-microservice/Services/Catalog/hm.CatalogApi/obj
+/hm-microservice/src/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0
+/hm-microservice/src/BuildingBlocks/BuildingBlocks/obj

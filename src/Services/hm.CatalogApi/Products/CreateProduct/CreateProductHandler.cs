@@ -1,8 +1,18 @@
-﻿namespace hm.CatalogApi.Products.CreateProduct;
+﻿using FluentValidation;
+
+namespace hm.CatalogApi.Products.CreateProduct;
 
 public record CreateProductCommand(string Name, List<string> Category, string Description, string ImageFile, decimal Price) : ICommand<CreateProductResult>;
 
 public record CreateProductResult(Guid Id);
+
+public class CreateProductCommandValidator: AbstractValidator<CreateProductCommand>
+{
+    public CreateProductCommandValidator()
+    {
+        RuleFor(x => x.Name).NotEmpty().WithMessage("Name is required");
+    }
+}
 
 internal class CreateProductCommandHandler(IDocumentSession session) : ICommandHandler<CreateProductCommand, CreateProductResult>
 {

@@ -10,5 +10,7 @@ global using hm.CatalogApi.Exceptions;
 global using BuildingBlocks.Behaviors;
 global using BuildingBlocks.Exceptions.Handler;
 global using hm.CatalogApi.Products.CreateProduct;
+global using HealthChecks.UI.Client;
+global using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 

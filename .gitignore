@@ -11,3 +11,7 @@
 /hm-microservice/src/BuildingBlocks/BuildingBlocks/obj
 /src/.vs
 /src/Services/hm.CatalogApi/obj
+/src/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0
+/src/BuildingBlocks/BuildingBlocks/obj
+/src/obj
+/src/Services/hm.CatalogApi/bin/Debug/net8.0

@@ -1,9 +1,11 @@
-﻿namespace hm.CatalogApi.Exceptions;
+﻿using BuildingBlocks.Exceptions;
 
-public class ProductNotFoundException : Exception
+namespace hm.CatalogApi.Exceptions;
+
+public class ProductNotFoundException : NotFoundException
 {
-    public ProductNotFoundException() : base("Product not found")
-    {            
+    public ProductNotFoundException(Guid Id) : base("Product", Id)
+    {
     }
 }
 

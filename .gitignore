@@ -9,3 +9,5 @@
 /hm-microservice/Services/Catalog/hm.CatalogApi/obj
 /hm-microservice/src/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0
 /hm-microservice/src/BuildingBlocks/BuildingBlocks/obj
+/src/.vs
+/src/Services/hm.CatalogApi/obj

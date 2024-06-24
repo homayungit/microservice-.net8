@@ -21,7 +21,6 @@ public class ValidationVehavior<TRequest, TResponse> (IEnumerable<IValidator<TRe
         {
             throw new ValidationException(failures);
         }
-
         return await next();
     }
 }

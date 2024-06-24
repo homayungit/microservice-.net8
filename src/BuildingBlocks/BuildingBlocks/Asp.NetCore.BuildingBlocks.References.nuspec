@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Asp.NetCore.BuildingBlocks.References</id>
+    <version>1.0.0</version>
+    <authors>hm</authors>
+    <owners>hm</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is for all dependency implementation by automatic</description>
+    <tags>dependency injection service</tags>
+  </metadata>
+</package>

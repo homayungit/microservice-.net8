@@ -15,7 +15,6 @@ public class UpdateProductCommandValidator : AbstractValidator<UpdateProductComm
         
         RuleFor(command => command.Price)
             .GreaterThan(0).WithMessage("Price must be greater then 0");
-
     }
 }
 
@@ -23,7 +22,6 @@ internal class UpdateProductCommandHandler(IDocumentSession session) : ICommandH
 {
     public async Task<UpdateProductResult> Handle(UpdateProductCommand command, CancellationToken cancellationToken)
     {
-
         var product = await session.LoadAsync<Product>(command.Id, cancellationToken);
 
         if (product is null)

@@ -4,6 +4,13 @@ services:
   catalogdb:
     image: postgres   
 
+  hm.catalogapi:
+    image: ${DOCKER_REGISTRY-}hmcatalogapi
+    build:
+      context: ..
+      dockerfile: src/Services/hm.CatalogApi/Dockerfile
+
 volumes:
   postgres_catalog:
+
 

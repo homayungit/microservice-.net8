@@ -15,3 +15,6 @@
 /src/BuildingBlocks/BuildingBlocks/obj
 /src/obj
 /src/Services/hm.CatalogApi/bin/Debug/net8.0
+/src/bin/Debug
+/src/Services/hm.BasketApi/bin/Debug/net8.0
+/src/Services/hm.BasketApi/obj

@@ -12,3 +12,7 @@ public class ShoppingCartItem
 
     public string ProductName { get; set; } = default!;
 }
+
+
+
+

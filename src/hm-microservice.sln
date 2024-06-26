@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm.CatalogApi", "Services\h
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CB612817-39EC-458A-AD02-DA3E6FDDBBCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm.BasketApi", "Services\hm.BasketApi\hm.BasketApi.csproj", "{34D5BCE9-891D-4D2B-887D-26E0803381FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm.BasketApi", "Services\hm.BasketApi\hm.BasketApi.csproj", "{34D5BCE9-891D-4D2B-887D-26E0803381FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

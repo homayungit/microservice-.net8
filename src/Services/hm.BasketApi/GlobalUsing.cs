@@ -1,6 +1,11 @@
 ﻿global using MediatR;
 global using Carter;
 global using Mapster;
+global using Marten;
 global using BuildingBlocks.CQRS;
 global using hm.BasketApi.Models;
 global using FluentValidation;
+global using BuildingBlocks.Behaviors;
+global using BuildingBlocks.Exceptions;
+global using hm.BasketApi.Exceptions;
+global using hm.BasketApi.Data;

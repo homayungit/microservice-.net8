@@ -1,4 +1,6 @@
-﻿namespace hm.BasketApi.Exceptions;
+﻿
+
+namespace hm.BasketApi.Exceptions;
 
 public class BasketNotFoundException : NotFoundException
 {
